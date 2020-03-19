@@ -2900,6 +2900,12 @@ exports.updateUnifiedPlanTrackIdsToSSRCs = updateUnifiedPlanTrackIdsToSSRCs;
 
 },{"./":16}],19:[function(require,module,exports){
 module.exports={
+  "_args": [
+    [
+      "@twilio/webrtc@4.1.0",
+      "/Users/apple/Documents/dotsoft/mediadevices-camera-selection"
+    ]
+  ],
   "_from": "@twilio/webrtc@4.1.0",
   "_id": "@twilio/webrtc@4.1.0",
   "_inBundle": false,
@@ -2921,9 +2927,8 @@ module.exports={
     "/twilio-video"
   ],
   "_resolved": "https://registry.npmjs.org/@twilio/webrtc/-/webrtc-4.1.0.tgz",
-  "_shasum": "fc7663d0957042acd911570800b0c51eaf6c5cb3",
-  "_spec": "@twilio/webrtc@4.1.0",
-  "_where": "/Users/pnash/projects/mediadevices-camera-selection/node_modules/twilio-video",
+  "_spec": "4.1.0",
+  "_where": "/Users/apple/Documents/dotsoft/mediadevices-camera-selection",
   "author": {
     "name": "Manjesh Malavalli",
     "email": "mmalavalli@twilio.com"
@@ -2931,7 +2936,6 @@ module.exports={
   "bugs": {
     "url": "https://github.com/twilio/twilio-webrtc.js/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Mark Roberts",
@@ -2942,7 +2946,6 @@ module.exports={
       "email": "rrowland@twilio.com"
     }
   ],
-  "deprecated": false,
   "description": "WebRTC-related APIs and shims used by twilio-video.js",
   "devDependencies": {
     "browserify": "^14.4.0",
@@ -24305,6 +24308,12 @@ to get a new one, but we\'ve run out of retries; returning it anyway.');
 module.exports = workaround;
 },{"./audiocontext":147,"./detectsilence":148}],150:[function(require,module,exports){
 module.exports={
+  "_args": [
+    [
+      "twilio-video@2.0.0-beta12",
+      "/Users/apple/Documents/dotsoft/mediadevices-camera-selection"
+    ]
+  ],
   "_from": "twilio-video@2.0.0-beta12",
   "_id": "twilio-video@2.0.0-beta12",
   "_inBundle": false,
@@ -24325,9 +24334,8 @@ module.exports={
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/twilio-video/-/twilio-video-2.0.0-beta12.tgz",
-  "_shasum": "e22e530eb361cb859da717a97fb517c3350cf2e4",
-  "_spec": "twilio-video@2.0.0-beta12",
-  "_where": "/Users/pnash/projects/mediadevices-camera-selection",
+  "_spec": "2.0.0-beta12",
+  "_where": "/Users/apple/Documents/dotsoft/mediadevices-camera-selection",
   "author": {
     "name": "Mark Andrus Roberts",
     "email": "mroberts@twilio.com"
@@ -24339,7 +24347,6 @@ module.exports={
   "bugs": {
     "url": "https://github.com/twilio/twilio-video.js/issues"
   },
-  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Ryan Rowland",
@@ -24355,7 +24362,6 @@ module.exports={
     "ws": "^3.3.1",
     "xmlhttprequest": "^1.8.0"
   },
-  "deprecated": false,
   "description": "Twilio Video JavaScript library",
   "devDependencies": {
     "@types/express": "^4.11.0",
@@ -25685,9 +25691,7 @@ $.getJSON('/token', function(data) {
     log("Joining room '" + roomName + "'...");
     var connectOptions = {
       name: roomName,
-      audio: false,
-      video: true //,
-      // logLevel: 'debug'
+      logLevel: 'debug'
     };
 
     if (previewTracks) {
